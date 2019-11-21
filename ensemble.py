@@ -56,7 +56,7 @@ def load_image_files(container_path, dimension=(64, 64)):
     
 
 
-image_dataset = load_image_files("C:\\srivallidevi_folders\\source-code-BBW-BBS-master\\images\\")
+image_dataset = load_image_files("images")
 
 xtrain, xtest, ytrain, ytest = train_test_split(
     image_dataset.data, image_dataset.target, test_size=0.3,random_state=109)
